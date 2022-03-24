@@ -45,3 +45,11 @@ header {
   text-align: center;
   font-size: 80px;
 }
+
+.score {
+  display: flex;
+  color: #6003C3;
+  font-size: 20px;
+  padding: 25px 20px;
+  text-align: center;
+}
