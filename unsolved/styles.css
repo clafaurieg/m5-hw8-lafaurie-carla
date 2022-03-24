@@ -9,3 +9,14 @@
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
 }
+
+h1 {
+  color:white;
+  font-size: 80px;
+  text-align: center;
+  line-height: 5rem;
+}
+header {
+  background-color: #6003C3;
+}
+
