@@ -5,7 +5,6 @@ var messages = [
     "Wrong"
 ]
 
-
 // Create variables to count wins and losses
 var wins = 0
 var losses = 0
