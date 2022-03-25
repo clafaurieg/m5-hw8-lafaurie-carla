@@ -1,5 +1,6 @@
 
 // Create an Array of at least 3 losing messages
+
 let losingMessage = [= You lost!", "Wrong", "Try again!"];
 
 // Create variables to count wins and losses
