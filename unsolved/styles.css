@@ -54,7 +54,6 @@ header {
   text-align: center;
 }
 
-/***********START 575PX MEDIA QUERY***********************************/
 @media (min-width: 575px){
   .boxes{
     display: flex;
