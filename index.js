@@ -1,7 +1,7 @@
 
 // Create an Array of at least 3 losing messages
 
-let losingMessage = [= You lost!", "Wrong", "Try again!"];
+let losingMessage = ["Bummer, you lost!", "You Lose.", "Try again, because you lost!"];
 
 // Create variables to count wins and losses
 var wins = 0
