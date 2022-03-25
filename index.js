@@ -1,8 +1,8 @@
 // Create an Array of at least 3 losing messages
 var messages = [
-    'oops, try again.😅',
-    'better luck next time!🤔',
-    'not quite right...😞'
+    'You lost :(',
+    'Almost there!,
+    'Sorry, not right.'
 ]
 // Create variables to count wins and losses
 var wins = 0
