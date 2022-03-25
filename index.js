@@ -18,10 +18,18 @@ let losses = document.getElementById("losses")
 
 // target all .box elements and attach a click event listener to each one using a loop
 
+var boxElements = document.querySelectorAll(".box")
+
+for (var i = 0; i < boxElements.length; i++) {
+    var boxElement = boxElements[i];
+    
+    
 // within each click event...
 // determine which box was clicked with 'this.textContent' or event.target.textContent
 // convert that value to a Number and store it to a variable
 
+boxElement.onclick = function (event) {
+            
 // create a random number between 1-3 and store it to a variable
 // This number will represent the winning box
 
