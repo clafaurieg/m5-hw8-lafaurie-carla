@@ -5,9 +5,8 @@ let losingMessage =
 
 
 // Create variables to count wins and losses
-var wins = 0
-var losses = 0
-
+let wins = 0
+let losses = 0
 
 // Create variables that target elements with the following IDs: 'message', 'wins', 'losses'
 var messageE1 = document.getElementById("message")
