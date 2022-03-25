@@ -1,8 +1,4 @@
-var messages = [
-    "Try Again",
-    "Incorrect",
-    "Wrong"
-]
+let losingMessage = [= You lost!", "Wrong", "Try again!"];
 
 // Create variables to count wins and losses
 var wins = 0
