@@ -1,6 +1,6 @@
 // Create an Array of at least 3 losing messages
 
-let losingMessage = 
+var losingMessage = 
 ["Bummer, you lost!", "You Lose.", "Try again, because you lost!"];
 
 
