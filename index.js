@@ -1,7 +1,7 @@
 var messages = [
-    "You lose :(",
-    "Try again,
+    "You Lose :(",
     "Wrong",
+    "Try Again "
 ]
 
 // Create variables to count wins and losses
