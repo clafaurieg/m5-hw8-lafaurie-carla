@@ -62,3 +62,4 @@ for (var i = 0; i < boxElements.length; i++){
         }
     }
 }
+
