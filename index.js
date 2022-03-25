@@ -1,9 +1,9 @@
 // Create an Array of at least 3 losing messages
 
 var messages = [
-    "Try",
-    "In",
-    "meh"
+    "Try Again",
+    "Incorrect",
+    "Wrong"
 ]
 
 
