@@ -20,7 +20,8 @@ var boxElements = document.querySelectorAll('.box')
 for (var i = 0; i < boxElements.length; i++){
     //0,1,2
     var boxElement = boxElements[i];
-    console.log(boxElements[i])
+    
+    
     boxElement.onclick = function(event){
 
 // within each click event...
@@ -28,8 +29,7 @@ for (var i = 0; i < boxElements.length; i++){
 // convert that value to a Number and store it to a variable
         
     var numWasClicked = Number(event.target.textContent)
-    //console.log(typeof boxNumWasClicked)
-    console.log(Number(numWasClicked))
+  
         
     // create a random number between 1-3 and store it to a variable
     var randomNumber = Math.floor(Math.random() * 4);
@@ -40,7 +40,6 @@ for (var i = 0; i < boxElements.length; i++){
         var messageElement = document.getElementById('message')
 
         if (numWasClicked === randomNumber) {
-            //console.log('You WIN!!!!')
 
             // if the numbers match, display a winning message by changing the text content of the div#message element
            
@@ -53,7 +52,6 @@ for (var i = 0; i < boxElements.length; i++){
           
                            
         } else {
-            console.log('Try again.')
 
             // if the numbers don't match, change the div#message element's text to a random losing message from the array above
             //document.getElementById('message').innerHTML = messages
