@@ -1,9 +1,11 @@
 // Create an Array of at least 3 losing messages
+
 var messages = [
-    "Nope",
-    "Try Again!",
-    "Lose"
+    "Try",
+    "In",
+    "meh"
 ]
+
 
 // Create variables to count wins and losses
 var wins = 0
