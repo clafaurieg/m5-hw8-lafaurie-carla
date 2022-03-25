@@ -1,30 +1,4 @@
 
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@clafaurieg
-nparra12 /
-m5-hw8-parra-nicole.io
-Public
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-m5-hw8-parra-nicole.io/index.js /
-[nicole parra] adjust box styling
-Latest commit 4ae076c on Oct 28, 2021
-History
-0 contributors
-67 lines (51 sloc) 2.5 KB
 // Create an Array of at least 3 losing messages
 var messages = [
     'oops, try again.😅',
@@ -88,20 +62,3 @@ for (var i = 0; i < boxElements.length; i++){
         }
     }
 }
-
-
-
-    © 2022 GitHub, Inc.
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
