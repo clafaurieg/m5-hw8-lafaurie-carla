@@ -32,7 +32,7 @@ for (var i = 0; i < boxElements.length; i++){
   
         
     // create a random number between 1-3 and store it to a variable
-    var randomNumber = Math.floor(Math.random() * 4);
+    var randomNumber = Math.floor(Math.random() * 3);
     console.log(randomNumber)
         
     // This number will represent the winning box
