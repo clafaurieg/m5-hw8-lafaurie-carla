@@ -32,7 +32,23 @@ boxElement.onclick = function (event) {
             
 // create a random number between 1-3 and store it to a variable
 // This number will represent the winning box
+    
+var boxNumberWasClicked = Number(event.target.textContent)
+        var random = Math.ceil(Math.random() * 3);
 
+        if (boxNumberWasClicked === random) {
+            message.textContent = "Accurate!"
+            wins++
+            wins.textContent = "Wins: " + wins
+        }
+        else {
+            var random = Math.floor(Math.random() * 3);
+            message.textContent = messages[random];
+            losses++
+            losses.textContent = "Losses: " + losses
+        }
+
+    }
 // determine if the box clicked is equal to the random number
 // if the numbers match, display a winning message by changing the text content of the div#message element
 // if the numbers match, increment wins and display the win count in div#wins
